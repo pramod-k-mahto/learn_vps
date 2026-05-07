@@ -12,7 +12,6 @@ services:
     networks:
       - fullStack-net
     restart: always
-
   client:
     build: ./forntend
     container_name: react-app
@@ -45,3 +44,9 @@ volumes:
 
   # docker compose up 
   # docker compose down
+
+
+
+  # CI/CD
+
+  # Computer =====Github======Vps===---User(Show)
